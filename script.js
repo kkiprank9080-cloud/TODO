@@ -8,7 +8,7 @@ let Todos = [];
 addTask.addEventListener("click", addtask);
 
 function addtask() {
-    const task = input.value.trim(); 
+    const task = input.value.trim();
     if (task === "") return; 
 
     Todos.push(task); 
