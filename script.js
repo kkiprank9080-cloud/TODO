@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const input = document.getElementById("input");
 const addTask = document.getElementById("button");
 const list = document.getElementById("list");
@@ -58,7 +58,6 @@ function rendertodo() {
         const li = createtodo(item, index);
         list.appendChild(li); 
     });
-=======
 const input = document.getElementById("input");
 const addTask = document.getElementById("button");
 const list = document.getElementById("list");
@@ -118,5 +117,4 @@ function rendertodo() {
         const li = createtodo(item, index);
         list.appendChild(li); 
     });
->>>>>>> 522aa389ab00427f294977a868d3bc422128df32
 }
